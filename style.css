@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #a2c6f8;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  height: 100vh;
+}
+
+.container .title,
+.container .instructions {
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.container .instructions {
+  margin-bottom: 2em;
+}
+
+.categories {
+  color: white;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.categories .activity {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.categories .activity .container-border {
+  border-radius: 20px 20px 0 0;
+  background-color: green;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.categories .activity .type {
+  margin-bottom: 0.5em;
+}
+
+.categories .activity .green {
+  background-color: #77c669;
+}
+
+.categories .activity .pink {
+  background-color: #de69ad;
+}
+
+.categories .activity .purple {
+  background-color: #7b69c6;
+}
+
+.categories .activity .orange {
+  background-color: #f4c632;
+}
+
+.categories .activity .box {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  -webkit-box-shadow: 15px 4px 15px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 15px 4px 15px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+}
+
+.categories .activity .box .thing {
+  color: black;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 800px) {
+  .categories {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+/*# sourceMappingURL=style.css.map */
