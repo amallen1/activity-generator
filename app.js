@@ -16,7 +16,7 @@ boxes.forEach((box) => {
 });
 
 let activity = (type, num) => {
-  fetch(`https://www.boredapi.com/api/activity?type=${type}`)
+  fetch(`http://www.boredapi.com/api/activity?type=${type}`)
     .then((response) => response.json())
     .then((data) => {
       paragraphs[num].textContent = `${data.activity}`;
