@@ -4,6 +4,10 @@ $green-border: #77c669;
 $pink-border: #de69ad;
 $purple-border: #7b69c6;
 $orange-border: #f4c632;
+$yellow-border: #ffff0d;
+$lavender-border: #9da0f0;
+$red-border: #c66969;
+$blue-border: #427eef;
 
 * {
   margin: 0;
@@ -17,7 +21,7 @@ body {
 }
 
 .container {
-  height: 100vh;
+  height: 100%;
 
   .title,
   .instructions {
@@ -38,6 +42,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: 1em;
 
   .activity {
     font-size: 2rem;
@@ -62,6 +67,18 @@ body {
     }
     .orange {
       background-color: $orange-border;
+    }
+    .yellow {
+      background-color: $yellow-border;
+    }
+    .lavender{
+        background-color: $lavender-border;
+    }
+    .red {
+      background-color: $red-border;
+    }
+    .blue {
+      background-color: $blue-border;
     }
 
     .box {

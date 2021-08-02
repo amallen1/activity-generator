@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  height: 100vh;
+  height: 100%;
 }
 
 .container .title,
@@ -41,6 +41,7 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-bottom: 1em;
 }
 
 .categories .activity {
@@ -73,6 +74,22 @@ body {
 
 .categories .activity .orange {
   background-color: #f4c632;
+}
+
+.categories .activity .yellow {
+  background-color: #ffff0d;
+}
+
+.categories .activity .lavender {
+  background-color: #9da0f0;
+}
+
+.categories .activity .red {
+  background-color: #c66969;
+}
+
+.categories .activity .blue {
+  background-color: #427eef;
 }
 
 .categories .activity .box {

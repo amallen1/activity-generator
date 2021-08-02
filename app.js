@@ -3,15 +3,7 @@ const paragraphs = Array.from(document.getElementsByClassName("thing"));
 
 boxes.forEach((box) => {
   box.addEventListener("click", () => {
-    if (box.id === "education") {
-      activity("education", 0);
-    } else if (box.id === "recreational") {
-      activity("recreational", 1);
-    } else if (box.id === "social") {
-      activity("social", 2);
-    } else if (box.id === "relaxation") {
-      activity("relaxation", 3);
-    }
+    activity(box.id, box.dataset.category);
   });
 });
 
